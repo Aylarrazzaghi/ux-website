@@ -1,0 +1,21 @@
+
+ name: Generate and Commit
+
+ on:
+  schedule:
+    - cron: '0 0 * * *'
+      
+ jobs:
+  generate-commit-push:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Execute generate.sh
+        run: |
+          chmod +x generate.sh
+          ./generate.sh
+
+    
