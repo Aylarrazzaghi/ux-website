@@ -1,0 +1,96 @@
+# Project information
+site_name: بلاگ
+site_url: https://github.com/Aylarrazzaghi
+site_author: Aylar Razzaghi
+site_description: مطالب تجربه کاربری
+
+# Configuration
+theme:
+   favicon: assets/images/note.png
+   name: material
+   language: fa
+   features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+   palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: cyan
+      accent:  cyan
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: cyan
+      accent: cyan
+extra_css:
+     - stylesheets/extra.css
+
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Aylarrazzaghi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/aylar-razzaghi
+
+     
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+      
+# Page tree
+nav:
+- خانه: index.md  
+- فهرست غلط‌های مصطلح در زبان فارسی: common-mistakes-in-Farsi/README.md
+- فهرست معادل‌های پرکاربرد فارسی یا آشنا در یو اکس رایتینگ:  persian-vocabulary-in-uxwriting/README.md
