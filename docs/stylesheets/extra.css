@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: 'vazir';
+  src: url('../assets/fonts/vazir.woff2') format('woff2');
+}
+
+
+:root { 
+  --md-text-font: "vazir";
+  --md-code-font: "vazir"; 
+}
