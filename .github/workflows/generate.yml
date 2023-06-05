@@ -3,7 +3,7 @@
 
  on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "*/5 * * * *"
       
  jobs:
   generate-commit-push:
@@ -17,5 +17,3 @@
         run: |
           chmod +x generate.sh
           ./generate.sh
-
-    

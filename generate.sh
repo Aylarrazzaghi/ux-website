@@ -13,13 +13,14 @@ cd ..
 rm -rf Persian-vocabulary-in-UXwriting
 
 # Common-mistakes-in-Farsi repository
-rm -rf common-mistakes-in-Farsi
+rm -rf common-mistakes-in-farsi
 git clone https://github.com/Aylarrazzaghi/Common-mistakes-in-Farsi
 cd  Common-mistakes-in-Farsi
-git checkout-index  -f --prefix=../common-mistakes-in-Farsi/ README.md
+git checkout-index  -f --prefix=../common-mistakes-in-farsi/ README.md
 cd ..
 rm -rf Common-mistakes-in-Farsi
 
+cd ..
 
 if [[ $(git status --porcelain) ]]; then
   echo "There are changes."
@@ -31,4 +32,3 @@ if [[ $(git status --porcelain) ]]; then
 else
   echo "There are no changes."
 fi
-

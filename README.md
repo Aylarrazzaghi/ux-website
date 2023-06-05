@@ -5,9 +5,9 @@ This website is built using `mkdocs-material` and is dedicated to the topics of 
 - https://github.com/Aylarrazzaghi/Common-mistakes-in-Farsi
 - https://github.com/Aylarrazzaghi/Persian-vocabulary-in-UXwriting
 
-The site's information will be automatically updated with the repositories every 24 hours.
+🚀 The site's information will be automatically updated with the repositories every 24 hours.
 
-## Adding a New Repository
+- ## Adding a New Repository
 1. Add the Website Name to the README.md.
 2. Let's assume I want to add a repository called `info-ux`, and the desired folder name is `test`.
 We will replace the names as follows.
@@ -19,15 +19,16 @@ We will replace the names as follows.
    cd ..
    rm -rf info-ux
 ```
+⚠️ We assume that the added repository has a directory structure similar to previous repositories.
+
 3. Refer to the mkdocs.yml file and add the repository there. Note that it's possible to add categories and subcategories. For more information, refer to the documentation of mkdocs-material.
 ```
  nav:
   ...
   - نام دلخواه:  test/README.md
 ```
-Note: We assume that the added repository has a directory structure similar to previous repositories.
 
-## Customizing the Homepage of Your Website
+- ## Customizing the Homepage of Your Website
 
 To customize the homepage of your website, follow these steps:
 

@@ -27,7 +27,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
       primary: blue
-      accent:  blue
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/brightness-4
@@ -92,5 +92,5 @@ markdown_extensions:
 # Page tree
 nav:
 - خانه: index.md  
-- فهرست غلط‌های مصطلح در زبان فارسی: common-mistakes-in-Farsi/README.md
+- فهرست غلط‌های مصطلح در زبان فارسی: common-mistakes-in-farsi/README.md
 - فهرست معادل‌های پرکاربرد فارسی یا آشنا در یو اکس رایتینگ:  persian-vocabulary-in-uxwriting/README.md
