@@ -9,9 +9,10 @@ This website is built using `mkdocs-material` and is dedicated to the topics of 
 
 - ## Adding a New Repository
 1. Add the Website Name to the README.md.
-2. Let's assume I want to add a repository called `info-ux`, and the desired folder name is `test`.
+2. Locate the `generate.sh` file.
+3. Let's assume I want to add a repository called `info-ux`, and the desired folder name is `test`.
 We will replace the names as follows.
-``` bash
+``` bash 
    rm -rf test
    git clone https://github.com/Aylarrazzaghi/info-ux
    cd  info-ux
@@ -21,7 +22,7 @@ We will replace the names as follows.
 ```
 ⚠️ We assume that the added repository has a directory structure similar to previous repositories.
 
-3. Refer to the mkdocs.yml file and add the repository there. Note that it's possible to add categories and subcategories. For more information, refer to the documentation of mkdocs-material.
+3. Refer to the `mkdocs.yml` file and add the repository there. Note that it's possible to add categories and subcategories. For more information, refer to the documentation of mkdocs-material.
 ```
  nav:
   ...
